@@ -9,8 +9,21 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        background: "#FFFFFF",
+        nearblack: "#0A0A0A",
+        deemphasized: "#C7C7C7",
+        bodytext: "#1A1A1A",
+        mutedlabel: "#9A9A9A",
+        wireframe: "#D4D4D4",
+      },
+      fontFamily: {
+        satoshi: ["Satoshi", "General Sans", "sans-serif"],
+      },
+      letterSpacing: {
+        meta: "0.18em",
+      },
+      spacing: {
+        section: "160px",
       },
     },
   },
